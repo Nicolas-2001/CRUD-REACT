@@ -39,7 +39,7 @@ function EditarProducto() {
 
 	return (
 		<div className="container" style={{ textAlign: "center" }}>
-			<h3> Modulo guardar Clientess </h3>
+			<h3> Editar Producto </h3>
 			<form onSubmit={actualizarProducto}>
 				<div className="mb-3">
 					<label className="from-label"> Nombre </label>

@@ -23,6 +23,7 @@ function MostrarProductos() {
 
 	return (
 		<div className="container">
+			<h1>Productos</h1>
 			<div className="row">
 				<div className="col">
 					<Link to="/productos/agregar" className="btn btn-success mt-2 mb-2">

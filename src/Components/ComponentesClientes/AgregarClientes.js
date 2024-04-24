@@ -27,7 +27,7 @@ function AgregarCliente() {
 	};
 	return (
 		<div className="container" style={{ textAlign: "center" }}>
-			<h3> Modulo Guardar Clientess </h3>
+			<h3> Agregar Cliente </h3>
 			<form onSubmit={guardarClientes}>
 				<div className="mb-3">
 					<label className="from-label"> Nombres </label>
@@ -38,7 +38,6 @@ function AgregarCliente() {
 						className="form-control"
 					/>
 				</div>
-
 				<div className="mb-3">
 					<label className="from-label"> Apellidos </label>
 					<input
@@ -48,7 +47,6 @@ function AgregarCliente() {
 						className="form-control"
 					/>
 				</div>
-
 				<div className="mb-3">
 					<label className="from-label"> Documento </label>
 					<input
@@ -58,7 +56,6 @@ function AgregarCliente() {
 						className="form-control"
 					/>
 				</div>
-
 				<div className="mb-3">
 					<label className="from-label"> Correo </label>
 					<input
@@ -77,7 +74,6 @@ function AgregarCliente() {
 						className="form-control"
 					/>
 				</div>
-
 				<div className="mb-3">
 					<label className="from-label"> Direccion </label>
 					<input
@@ -91,8 +87,7 @@ function AgregarCliente() {
 					{" "}
 					<i className="bi bi-person"></i>
 					{" Agregar"}
-				</button>
-				{" "}
+				</button>{" "}
 				<button
 					onClick={() => {
 						navigate("/");

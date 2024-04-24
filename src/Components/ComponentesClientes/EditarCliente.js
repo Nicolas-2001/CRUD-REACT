@@ -44,7 +44,7 @@ function EditarCliente() {
 
 	return (
 		<div className="container">
-			<h3> Modulo Editar Usuarios </h3>
+			<h3> Editar Cliente </h3>
 			<form onSubmit={actualizarCliente}>
 				<div className="mb-3">
 					<label className="from-label"> Nombres </label>

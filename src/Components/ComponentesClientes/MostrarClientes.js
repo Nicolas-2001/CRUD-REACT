@@ -23,6 +23,7 @@ function MostrarClientes() {
 
 	return (
 		<div className="container">
+			<h1>Clientes</h1>
 			<div className="row">
 				<div className="col">
 					<Link

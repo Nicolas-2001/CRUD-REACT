@@ -24,7 +24,7 @@ function AgregarProductos() {
 
 	return (
 		<div className="container" style={{ textAlign: "center" }}>
-			<h3> Modulo guardar Clientess </h3>
+			<h3> Agregar Productos </h3>
 			<form onSubmit={guardarProducto}>
 				<div className="mb-3">
 					<label className="from-label"> Nombre </label>

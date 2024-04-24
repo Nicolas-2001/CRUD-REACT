@@ -28,10 +28,11 @@ function NavegationBar() {
 							Productos
 						</a>
 					</li>
+					
 					<li className="nav-item">
 						<a
 							className="nav-link"
-							href="/"
+							href="/proveedores"
 							style={{ color: "white" }}
 						>
 							Proovedores
