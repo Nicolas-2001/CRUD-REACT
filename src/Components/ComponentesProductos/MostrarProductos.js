@@ -54,7 +54,7 @@ function MostrarProductos() {
 											to={`/productos/editar/${producto._id}`}
 											className="btn btn-warning"
 										>
-											<i class="bi bi-pencil"></i>
+											<i className="bi bi-pencil"></i>
 										</Link>
 										&nbsp;
 										<button
@@ -63,7 +63,7 @@ function MostrarProductos() {
 											}
 											className="btn btn-danger"
 										>
-											<i class="bi bi-trash"></i>
+											<i className="bi bi-trash"></i>
 										</button>
 									</td>
 								</tr>

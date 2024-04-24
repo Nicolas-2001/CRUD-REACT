@@ -68,7 +68,7 @@ function EditarCliente() {
 					<label className="from-label"> Documento </label>
 					<input
 						value={documento}
-						onChange={(g) => setDocumento(g.target.value)}
+						onChange={(g) => setDocumento(parseInt(g.target.value))}
 						type="number"
 						className="form-control"
 					/>
@@ -86,7 +86,7 @@ function EditarCliente() {
 					<label className="from-label"> Telefono </label>
 					<input
 						value={telefono}
-						onChange={(g) => setTelefono(g.target.value)}
+						onChange={(g) => setTelefono(parseInt(g.target.value))}
 						type="number"
 						className="form-control"
 					/>
